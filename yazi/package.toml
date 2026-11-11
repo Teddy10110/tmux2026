@@ -1,0 +1,24 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "1ef5fe0"
+hash = "f0dcc0ea71d5c59ce0d527f4b8a3937b"
+
+[[plugin.deps]]
+use = "boydaihungst/gvfs"
+rev = "c92953c"
+hash = "d1e8d33ed36d339d5588f036dc3a9204"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "1ef5fe0"
+hash = "17ebde15c4349f90aedbc45984b98db2"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "38c08d8"
+hash = "57d33c9c6107017bf8afc8df186356c5"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:dracula"
+rev = "38c08d8"
+hash = "4879c0dfb12f728c92c09e8749728f6f"

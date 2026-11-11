@@ -1,0 +1,7 @@
+## [flavor]
+## dark  = "catppuccin-mocha"
+## light = "catppuccin-mocha"
+
+[flavor]
+dark = "dracula"
+light = "dracula"

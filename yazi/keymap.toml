@@ -1,0 +1,28 @@
+[[mgr.prepend_keymap]]
+on   = "M"
+run  = "plugin mount"
+desc = "Open mount manager"
+
+
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "p" ]
+run  = "cd /run/user/1000/gvfs"
+desc = "Go to mounted phone (GVFS)"
+
+
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "d" ]
+run  = "cd ~/Downloads"
+desc = "Go to Downloads"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "c" ]
+run  = "cd ~/.config"
+desc = "Go to Config folder"
+
+[[mgr.prepend_keymap]]
+on   = "!"
+run  = 'shell "$SHELL" --block'
+desc = "Open shell here"
